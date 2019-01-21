@@ -16,5 +16,5 @@ The maximum input of KPU is 320x256, so your feature map must be less or equal t
 ## ImageNet classifier of MobilenetV1\_1.0 [Netscope](http://dgschwend.github.io/netscope/#/gist/5377367f56a14ffcf870fd77ff439a94)
 See here `https://github.com/shicai/MobileNet-Caffe`, the FC layer will be calculated in CPU.
 
-## VOC Detection of MobilenetV1\_1.0
+## VOC Detection of MobilenetV1\_1.0 [Netron](http://lutzroeder.github.io/netron/?gist=9e8aba88ce63de040b9acd9d82d2eb2e)
 See here `https://github.com/eric612/MobileNet-YOLO/tree/ab6746ca898f62b696e2a00ae50075d3c0f5eb0b`, and use [MobileNet-YOLO-Lite](https://github.com/eric612/MobileNet-YOLO/tree/ab6746ca898f62b696e2a00ae50075d3c0f5eb0b/models/yolov2), since 416x416 is not supported by K210, you need the finetune this model to 320x240.
